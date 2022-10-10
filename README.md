@@ -1,2 +1,2 @@
 # Lab 2 - Starter
-https://github.com/7Bean/CSE110-Lab2
+https://7bean.github.io/CSE110-Lab2/

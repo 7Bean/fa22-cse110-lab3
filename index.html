@@ -11,22 +11,44 @@
   </head>
     <body>
         <header>
-            <div>Table of Contents</div> 
+            <div id="top">Table of Contents</div> 
             
             <nav>
                 <ul>
-                    <li><a href="#Completed">Completed</a></li>
-                    <li><a href="#Agenda"></a></li>
+                    <li><a href="#Dancing">Dancing cockroach</a></li>
                     <li><a href="#Completed">Completed</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <h1>Meeting Minutes</h1>
+            <h1>id= Meeting Minutes</h1>
+            <h2>Attendance</h2>
+            <form action="">
+                <fieldset>
+                    <textarea id="Participation" name="Participation" id="" cols="30" rows="10"> How is your day?</textarea>
+                </fieldset>
+                <label for="favcolor"> What is your favorite primary color</label>
+                <input list="primarycolors" id="favcolor" name="favcolor" >
+
+                <datalist id ="primarycolors">
+                    <option value="Red"></option>
+                    <option value="Blue"></option>
+                    <option value="Yellow"></option>
+                </datalist>
+                <br>
+                <label for="tired">How tired are you?</label>
+                <select name="tiredtest" id="tired">
+                    <option value="" >PLEASE CHOOSE ONE</option>
+                    <option value="not tired"></option> 
+                    <option value="somewhat tired"></option>
+                    <option value="very tired"></option>
+                </select>
+            </form>
             <section>
                 <h2>HI</h2>
                     <p>
                         <b>yo</b> <br> <i>hey</i>
+                        
                     </p> 
             </section>
             <section>
@@ -37,12 +59,20 @@
                         <strong>peace</strong> <br> <em>see ya</em>
                     </p>
             </section>
-            <h2>Ladies and Gentlemen cockroach</h2>
-            <audio src="https://www.youtube.com/watch?v=_mPp26Bb3EI"></audio>
+
+            <h2 id="Dancing">Ladies and Gentlemen cockroach</h2>
+            <video width="250" height="250" controls src="CockroachAroundtheWorld_Trim.mp4"></video>
+            <br>
+            <details>
+                    <summary>See More</summary>
+                    <audio controls src="AroundtheWorldLowQualityTrim.mp3">type="audio/mp3"</audio> 
+            </details>
+            
+            <button class="favorite styled" type="button"> press button for fun! </button>
         </main>
         <hr>
         <footer>
-            <h3> Completed this Meeting </h3>
+            <h3 id="Completed"> Completed this Meeting </h3>
             <ol>
                 <li><input type="checkbox">Document Metadeta</li>
                 <li><input type="checkbox">Content Sectioning</li>
@@ -53,5 +83,9 @@
                 <li><input type="checkbox">forms</li>
             </ol>
         </footer>
+        <nav>
+            <a href="#top">Back to the Top</a>
+        </nav>
+        <img src="https://ih1.redbubble.net/image.490263221.2295/flat,750x1000,075,f.u6.jpg" alt="ThumbsUp" width="100" height="100">
     </body>
 </html>

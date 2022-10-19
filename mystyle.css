@@ -1,0 +1,90 @@
+/* font for whole page */
+* {
+    font-family: Helvetica, sans-serif, Arial;
+}
+
+/* background color */
+body {
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    padding-left: 1pt;
+    padding-right: 1pt;
+    background: #36393f;
+    color: #D3D3D3;
+}
+
+h1 {
+    position: static;
+    border: 5px outset #D3D3D3;
+}
+
+h2 {
+    position: relative;
+    left: 16px;
+    text-decoration: gray overline underline;
+}
+
+#attendanceform{
+    text-align:left;
+    margin: 1pt 1pt 1pt 1pt;
+    padding: 10pt 10pt 5pt 5pt;
+    background: #2f3136;
+    border-width: 2px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    display: inline-block;
+    
+
+}
+
+
+#HI div{
+    display: inline-flex;
+    background-color: #2f3136;
+    border: 1px dashed;
+    padding: 10px; 
+}
+
+.goodbyes {
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+}
+
+
+
+video{
+    display:block;
+    
+}
+
+a:link{
+    color:aquamarine;
+    text-decoration: none;
+}
+
+a:visited{
+    color:orange;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color: mediumseagreen;
+}
+
+button:active{
+    color: red;
+}
+
+@media screen and (max-width: 500px) {
+    body{
+        background-color: yellow;
+    }
+}

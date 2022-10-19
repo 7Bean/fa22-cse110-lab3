@@ -2,14 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-
     <title>Meeting Minutes</title>
-
+    <link rel="stylesheet" href="mystyle.css">
     <link rel="icon" type="image/x-icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/twitter/322/cold-face_1f976.png">
   </head>
     <body>
+        <main>
+        <h1 style="color:rgb(4, 172, 130);text-align:center;"> Meeting Minutes</h1>
         <header>
             <div id="top">Table of Contents</div> 
             
@@ -19,10 +19,9 @@
                     <li><a href="#Completed">Completed</a></li>
                 </ul>
             </nav>
-        </header>
-        <main>
-            <h1>id= Meeting Minutes</h1>
+        </header>    
             <h2>Attendance</h2>
+            <div id="attendanceform">
             <form>
                 <fieldset>
                     <textarea  name="Participation" id="Participation" cols="30" rows="10"> How is your day?</textarea>
@@ -44,21 +43,49 @@
                     <option value="very tired">very tired</option>
                 </select>
             </form>
-            <section>
+            </div>
+
                 <h2>HI</h2>
+            <div id="HI">
+                <div class="greeting1">
                     <p>
-                        <b>yo</b> <br> <i>hey</i>
+                        <b>yo</b> hola bonjour guten tag  <br> <i>hey</i>
                         
                     </p> 
-            </section>
-            <section>
+                </div>
+
+                <div class="greeting2">
+                    <p>
+                        salve nǐn hǎo olá asalaam alaikum
+                    </p>
+                </div> 
+                
+                <div class="greeting3">
+                    <p>
+                        konnichiwa  anyoung haseyo Zdravstvuyte
+                    </p>
+                </div>
+            </div>
                 <h2>BYE</h2>
+            <div class="goodbyes">
+                <div>
                     <p>
                         <span>span 1</span>
                         <span>span 2</span>
                         <strong>peace</strong> <br> <em>see ya</em>
                     </p>
-            </section>
+                </div>
+                <div>
+                    <p>
+                        radaradaradaradaradarada
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ante mi, hendrerit ut risus a, hendrerit condimentum massa. Donec quis ornare ex. Sed nisi ligula, commodo id eros eget, faucibus venenatis massa. Vivamus rutrum, mauris et vestibulum porttitor, dolor mauris varius quam, a ornare est neque sed nibh. Donec consectetur urna in viverra auctor. Vestibulum vel urna aliquet, tristique diam quis, cursus quam. Pellentesque gravida, dui ac sollicitudin laoreet, urna mauris tincidunt felis, ac hendrerit neque eros vitae magna. Morbi lacinia lectus in est cursus vulputate.
+                    </p>
+                </div>
+            </div>
 
             <h2 id="Dancing">Ladies and Gentlemen cockroach</h2>
             <video width="250" height="250" controls src="CockroachAroundtheWorld_Trim.mp4"></video>
@@ -72,7 +99,7 @@
         </main>
         <hr>
         <footer>
-            <h3 id="Completed"> Completed this Meeting </h3>
+            <h3 class="completed"> Completed this Meeting </h3>
             <ol>
                 <li><input type="checkbox">Document Metadeta</li>
                 <li><input type="checkbox">Content Sectioning</li>

@@ -55,11 +55,36 @@ h2 {
     grid-template-columns: 40% 30% 30%;
 }
 
-
+div p {
+    background-color: #2f3136;
+    border-radius: 8px;
+}
 
 video{
     display:block;
     
+}
+
+img[height],video {
+    border:blue dotted;
+    padding: 10px;
+}
+
+ol > li {
+    background-color: darkcyan;
+}
+
+h3 + ol{
+    color:beige;
+    text-decoration:underline;
+}
+
+div ~ button {
+    text-decoration: line-through;
+}
+
+h3.completed{
+    border:double;
 }
 
 a:link{
